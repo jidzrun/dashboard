@@ -55,16 +55,3 @@
 </body>
 
 </html>
-
-
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js">
-<script type="text/javascript">
-	$(document).ready(function() {
-			event.preventDefault();
-			
-		$('.title-klik').click(function(event) {
-			alert('title-klik');
-		});
-	});
-</script>

@@ -18918,10 +18918,10 @@ parcelRequire = function(e, r, t, n) {
 						return t.classList.add(0 !== s ? "next" : "show-meta"), 
 						r.innerHTML =  e.meta , 
 						a.innerHTML = '<a href='+ e.link +' id='+ e.id +'>'+ e.title +'</a>', 
-						l.innerHTML = '<a href='+ e.link +' id='+ e.id +'>Log in</a>', 
+						// l.innerHTML = '<a href='+ e.link +' id='+ e.id +'>Log in</a>', 
 						t.appendChild(r), 
 						t.appendChild(a), 
-						t.appendChild(l), 
+						// t.appendChild(l), 
 						n.container.appendChild(t), 
 						t
 					})
